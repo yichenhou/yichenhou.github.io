@@ -1,0 +1,139 @@
+:root {
+  --btn-color: rgba(32,32,32,1);
+  --primary-color: rgba(32, 32, 32, 0.55);
+  --overlay-color: rgba(0, 0, 0 , 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  background-color: rgb(32,32,32);
+}
+
+
+.title h1
+{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.container
+{
+  width: 962px;
+  height: 594px;
+  margin: 130px 270px;
+  position: relative;
+}
+
+.container img
+{
+ width: 475px;
+ height: 594px;
+ margin: 0;
+ position: absolute;
+}
+
+.container svg
+{
+fill: rgb(48,48,48);
+margin-left: 12px;
+margin-top: 12px;
+}
+
+.textblock{
+  margin: -680px 770px;
+  width: 450px;
+  height:500px;
+  position: absolute;
+}
+.textblock h1{
+  font-family: 'Raleway', sans-serif;
+  font-style: bold;
+   font-style: italic;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.textblock p{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.contact1{
+  width: 300px;
+  height: 450px;
+  margin: 0px 270px;
+  position: relative;
+}
+
+.contact1 h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.contact1 p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact2{
+  width: 300px;
+  height: 450px;
+  margin: -450px 601px;
+  position: relative;
+}
+
+.contact2 h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.contact2 p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact3{
+  width: 300px;
+  height: 450px;
+  margin: -450px 931px;
+  position: relative;
+}
+
+.contact3 h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.contact3 p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
