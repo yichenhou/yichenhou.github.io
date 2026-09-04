@@ -1,0 +1,3 @@
+﻿EmployeeID,EventDate,EventType,FromDivision,ToDivision,FromRole,ToRole
+E0001,2026-04-01,Promotion,Technology,Technology,Analyst,Senior Analyst
+E0002,2026-07-01,Internal Move,Retail,Retail,Advisor,Relationship Manager

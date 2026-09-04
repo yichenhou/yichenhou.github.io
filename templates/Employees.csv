@@ -1,0 +1,4 @@
+﻿EmployeeID,SnapshotDate,HireDate,ExitDate,Division,Department,RoleFamily,JobLevel,ManagerID,EmploymentStatus,FTE
+E0001,2026-08-31,2021-03-15,,Technology,Data,Analytics,Senior,M001,Active,1
+E0002,2026-08-31,2024-05-01,,Retail,Sales,Relationship Management,Professional,M002,Active,1
+E0003,2026-08-31,2019-09-10,2026-06-30,Operations,Service,Operations,Professional,M003,Exited,1
