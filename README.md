@@ -1,16 +1,15 @@
-# People Analytics Model V2
+# HR DataMart Studio for GitHub Pages
 
-Two connected static pages:
-- `datamart.html`: interactive DataMart model builder.
-- `index.html`: richer Workforce Health dashboard driven by the saved model.
+## What it does
+- Provides an Excel workbook and CSV templates.
+- Lets visitors upload CSV exports locally in the browser.
+- Validates required columns, completeness, duplicates, date format and freshness.
+- Builds a visible dimensional model and metric catalogue from selected domains.
+- Stores only configuration and aggregate results in browser localStorage.
+- Produces a final Workforce Health dashboard.
 
-## Publish to GitHub Pages
-Upload all files preserving the `assets` folder. In Settings > Pages select the `main` branch and `/ (root)`.
+## Deploy
+Upload the contents of this folder to the repository root, preserving `assets/` and `templates/`. Enable GitHub Pages from `main` and `/ (root)`.
 
-## Local test
-```bash
-python3 -m http.server 8080
-```
-Open `http://localhost:8080/datamart.html`.
-
-All data is synthetic. Configuration is held in browser localStorage.
+## Privacy
+This static version does not send uploaded files to a server. Browser and hosting behavior should still be reviewed before inviting users to use confidential data. The public demo should use synthetic or authorized data only.
